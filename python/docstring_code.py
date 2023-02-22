@@ -1,5 +1,6 @@
 def ohno(fnc):
-    return eval(f"lambda {', '.join(fnc.__code__.co_varnames)}: {fnc.__doc__}")
+    args = ', '.join(fnc.__code__.co_varnames[:fnc.__code__.co_argcount])
+    return eval(f"lambda {args}: {fnc.__doc__}")
 
 
 @ohno
