@@ -1,0 +1,1 @@
+Files in this folder behave interestingly with optimizer enabled.
