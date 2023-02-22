@@ -25,7 +25,8 @@ def discover(path):
         if entry.name.startswith('.'):
             continue
 
-        if entry.name == "README.md":
+        # blacklist
+        if entry.name in ("README.md", "CNAME"):
             continue
 
         if entry.is_dir():
