@@ -9,4 +9,4 @@ Collection of cursed code snippets
 * [c](c) 
 
 ### Files
-* [CNAME](CNAME) 
+
