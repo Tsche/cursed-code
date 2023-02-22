@@ -7,3 +7,4 @@ class Foo(type_ := int):
 
 assert Foo.foo() is int
 assert int in Foo.__bases__
+assert type_ is int
